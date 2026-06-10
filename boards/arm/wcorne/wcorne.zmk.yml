@@ -11,5 +11,5 @@ outputs:
   - usb
   - ble
 siblings:
-  - corne_left
-  - corne_right
+  - wcorne_left
+  - wcorne_right
