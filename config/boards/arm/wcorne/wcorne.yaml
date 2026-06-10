@@ -1,6 +1,6 @@
-identifier: corne
+identifier: wcorne
 name: Solfe
-url: https://github.com/tokyo2006/zmk-config-corne
+url: 
 type: mcu
 arch: arm
 toolchain:
