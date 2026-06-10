@@ -5,7 +5,7 @@
 *
 */
 
-#include "corne.dtsi"
+#include "wcorne.dtsi"
 
 &kscan0 {
     col-gpios
@@ -18,6 +18,4 @@
         ;
 };
 
-&left_encoder {
-    status = "okay";
-};
+
