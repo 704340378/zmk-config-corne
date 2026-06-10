@@ -33,7 +33,7 @@ CONFIG_ZMK_USB=y
 CONFIG_ZMK_BLE=y
 
 # ★ 把这三行也清掉 —— 没屏幕开 display 才会炸
-# CONFIG_ZMK_DISPLAY=n
+ CONFIG_ZMK_DISPLAY=n
 
 # EXT_POWER（你没有 OLED/外设供电的话也可以关，留着一般无害）
 CONFIG_ZMK_EXT_POWER=n
@@ -50,4 +50,4 @@ CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
 # CONFIG_ZMK_HID_REPORT_TYPE_NKRO=n
 
 # Mouse — 如果你没用到 mouse keys / pointing，可以关掉省空间
-# CONFIG_ZMK_MOUSE=y
+ CONFIG_ZMK_MOUSE=n
