@@ -3,21 +3,21 @@
 # SPDX-License-Identifier: MIT
 #
 
-if BOARD_CORNE_LEFT
+if BOARD_WCORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Corne"
+    default "WCorne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # BOARD_CORNE_LEFT
+endif # BOARD_WCORNE_LEFT
 
 
-if BOARD_CORNE_LEFT || BOARD_CORNE_RIGHT
+if BOARD_WCORNE_LEFT || BOARD_WCORNE_RIGHT
 
 config BOARD
-    default "corne"
+    default "Wcorne"
 
 config ZMK_SPLIT
     default y
@@ -45,5 +45,4 @@ config USB_DEVICE_STACK
 
 endif # USB
 
-endif # BOARD_CORNE_LEFT || BOARD_CORNE_RIGHT
-
+endif # BOARD_WCORNE_LEFT || BOARD_WCORNE_RIGHT
