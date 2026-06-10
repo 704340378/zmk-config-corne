@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    Wcorne_layout: Wcorne_layout {
+    wcorne_layout: wcorne_layout {
         compatible = "zmk,physical-layout";
         display-name = "Layout";
 
